@@ -1,0 +1,11 @@
+const ss = SpreadsheetApp.getActiveSpreadsheet();
+const coordenadasFila = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"];
+const rangoTablaDatosA1 = "AI6:AM10";  // Rando de la tabla de colocación de los barcos
+const tableroDefensaA1 = "W6:AF15";  // Rango de la tabla de defensa
+const tableroAtaqueA1 = "D6:M15";  // Rango de la tabla de ataque
+const coordenadasAtaqueA1 = "P14:Q14";  // Coordenadas del proximo ataque
+const mensajeErrorA1 = "AI11";  // Ubicación de los errores 
+const mensajeDefensaA1 = "W2";  // Mensaje de estado para la defensa
+const mensajeAtaqueA1 = "D2";  // Mensaje de estado para el ataque
+const mensajeDisparoA1 = "P16";  // Errores de ataque
+const estadoBarcosA1 = "Q6:Q10";  // Ubicación del estado de cada barco

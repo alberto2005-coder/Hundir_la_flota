@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Juego</title>
+    <style>
+  body {
+      font-family: 'Arial', sans-serif;
+      text-align: justify;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff; 
+      color: #333; 
+      line-height: 1.6;
+    }
+
+  h1 {
+      text-align: center;
+      color: #004080; 
+      margin-top: 20px;
+  }
+
+  p {
+      text-align: center;
+      font-size: 1.2em;
+      margin: 20px auto;
+      max-width: 600px;
+  }
+
+  ul {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0;
+      list-style-type: none;
+  }
+
+  ul li {
+      margin: 10px 0;
+      padding: 10px;
+      border-left: 5px solid #004080; 
+      background-color: #e6f7ff; 
+      border-radius: 5px;
+  }
+
+  .highlight {
+      font-weight: bold;
+      color: #0080ff;
+}
+
+  a.button {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #004080; 
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1.1em;
+      border-radius: 5px;
+      text-align: center;
+      margin: 20px auto;
+      display: block;
+      max-width: 150px;
+  }
+
+  a.button:hover {
+      background-color: #0059b3;
+  }
+    </style>
+  </head>
+  <body>
+    <h1>Detalles del Juego</h1>
+    <p>Bienvenido al juego de Batallas Navales. Aquí están los detalles del juego:</p>
+    <ul>
+      <li><span class="highlight">Objetivo del Juego:</span> Hundir todos los barcos del oponente antes de que él hunda los tuyos.</li>
+      <li><span class="highlight">Ubicación de los Barcos:</span> Coloca tus barcos en tu tablero antes de atacar usando el panel de colocación, situado a la derecha de la tabla de defensa, donde debes elegir las coordenadas y la orientación (Horizontal y vertical). Cuando termines marca "barcos colocados" y será el turno de tu compañero de colocarlos.</li>
+      <li><span class="highlight">Ataque:</span> Ataca usando la tabla situada en la esquina inferior derecha de la tabla de ataque. Una vez allí, elige las coordenadas que deseas atacar y marca la casilla de disparar. Si hay un barco, se marcará como "tocado", si tocas todas las casillas de un barco se marcará como hundido.</li>
+      <li><span class="highlight">Funciones adicionales:</span> En cualquier momento de la partida podrás ver las reglas. En el tablero de defensa, bajo la casilla de colocación de barcos, tendrás la opción de reiniciar el juego; esta solo estará disponible si uno de los dos ha ganado.</li>
+      <li><span class="highlight">¿Cómo se gana?</span> El primero en hundir todos los barcos del oponente gana.</li>
+    </ul>
+    <p>¡Buena suerte y que comience la batalla naval!</p>
+    <a href="#" class="button" onclick="google.script.host.close();">Aceptar</a>
+  </body>
+</html>
