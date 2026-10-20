@@ -26,4 +26,38 @@ Este proyecto utiliza [CLASP](https://github.com/google/clasp) para la gestión 
     ```
 
 ## Autores
-- Alberto Ortiz 
+- Alberto Ortiz
+
+---
+
+# English Version
+
+# Battleship (Google Apps Script)
+
+A "Battleship" game implemented in Google Apps Script.
+
+## Project Structure
+
+The project has been restructured for easier maintenance and version control:
+
+-   `src/`: Contains all the project source code (`.js`, `.html` and `appsscript.json`).
+-   `assets/`: Contains additional resources and documentation (e.g., Excel files).
+-   `package.json`: Dependency configuration (if applicable).
+-   `.clasp.json`: CLASP configuration for deployment.
+
+## Deployment
+
+This project uses [CLASP](https://github.com/google/clasp) for code management.
+
+1.  Make sure you have CLASP installed: `npm install @google/clasp -g`
+2.  Log in: `clasp login`
+3.  Link your Google Apps Script project (create a new one or clone an existing one):
+    -   **New project:** `clasp create --type sheets --title "Hundir la flota" --rootDir ./src`
+    -   **Existing project:** `clasp clone <scriptId> --rootDir ./src`
+4.  Upload your changes:
+    ```bash
+    clasp push
+    ```
+
+## Authors
+- Alberto Ortiz
